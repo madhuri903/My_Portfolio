@@ -1,0 +1,197 @@
+body {
+    background: #f7f7f7;
+}
+html{
+    scroll-behavior: smooth;
+}
+img.logo {
+    width: 150px;
+}
+.container-1440 {
+    width: 100%;
+    max-width: 1440px;
+}
+.back-image img{
+    width: 100%;
+}
+li.nav-item {
+    margin: 0px 15px;
+    font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.back-image img {
+    position: relative;
+}
+.write {
+    position: absolute;
+    top: 380px;
+    left: 125px;
+    color:white;
+}
+.write h2 {
+    padding: 10px 0px;
+}
+ul.social-icons li {
+    list-style: none;
+}
+ul.social-icons {
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    top: 485px;
+    left: 70px;
+    color:white;
+}
+li i {
+    margin: 0px 15px;
+}
+h4.english {
+    color: #898989;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    text-align: left;
+}
+
+p.english {
+    color: #898989; 
+    max-width: 90%;
+    text-align: left;
+}
+
+.about-us {
+    padding: 145px 30px 0px 30px;
+}
+img.about {
+    width: 100%;
+    max-width: 280px;
+    margin-left: 80px;
+    position: absolute;
+    top: -30px;
+   
+}
+.aboutttt {
+    position: relative;
+    border:20px solid #b8a07e;
+    height: 345px;
+    margin: 0px 180px 5px 30px;
+}
+.portfolio h3 {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+}
+.blog h3 {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+}
+h4.beauti {
+    font-size: 19px;
+    color: black;
+    padding: 10px 0px;
+}
+h4.beauti:hover  {
+    color: brown;
+    text-decoration: none;
+    
+}
+p.english {
+    color: #898989;
+    max-width: 96%;
+    text-align: left;
+}
+a:hover {
+    text-decoration: none;
+}
+.contact {
+    padding: 104px 35px;
+}
+address{
+color: #898989;
+    padding: 29px 0px;
+}
+.col {
+    padding: 2px 12px;
+}
+.subject {
+    padding: 23px 0px;
+}
+.send {
+    padding: 28px 0px;
+}
+.send button {
+    border: 1px solid;
+    background: #333333;
+    width: 100%;
+    height: 49px;
+    color: white;
+}
+ul.copy {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: #898989;
+    font-size: 23px;
+}
+.reserved p {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+.madhu p {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}
+/*slider in about us*/
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #b8a07e;
+}
+.owl-theme .owl-dots .owl-dot span{
+    margin: 0 5px;
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+    border: 0;
+    padding: 0 !important;
+    background-color: #ddd;
+    cursor: pointer;
+    }
+.owl-prev{
+    left: -30px;
+}
+.owl-next{
+    right: 30px;
+}
+.owl-prev, .owl-next{
+    position: absolute;
+    top: 30%;
+}
+.owl-theme, .owl-nav [class*="owl-"]:hover{
+    background-color: transparent;
+}
+.service{
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+  #owl-service{
+    width: 263px;
+    height: 129px;
+  }
+  .iconify{
+    color:#b8a07e;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #icon-head{
+    display: block;
+    font-size: 14px;
+    font-weight:500;
+  }
+  .separator{
+      font-size: 13px;
+  }
+ 
